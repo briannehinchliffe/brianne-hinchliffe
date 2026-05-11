@@ -1,14 +1,14 @@
 a {
-	color: $color__link;
+	color: var(--wp--custom--link-color);
 
 	&:visited {
-		color: $color__link-visited;
+		color: #ffffff;
 	}
 
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color__link-hover;
+		color:  var(--wp--custom--link-color-hover);
 	}
 
 	&:focus {
