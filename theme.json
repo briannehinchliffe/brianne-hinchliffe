@@ -6,59 +6,203 @@
   },
   "settings": {
     "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "1080px",
+      "wideSize": "1280px"
+    },
+    "position": {
+      "sticky": true
+    },
+    "border": {
+      "radiusSizes": [
+        {
+          "name": "None",
+          "slug": "none",
+          "size": "0"
+        },
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "4px"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "8px"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "16px"
+        },
+        {
+          "name": "Full",
+          "slug": "full",
+          "size": "9999px"
+        }
+      ]
+    },
     "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
       "palette": [
         {
-          "color": "light-dark(#f9f9f9, #1c1c1c)",
-          "name": "Base",
-          "slug": "base"
+          "color": "light-dark(#f0f8f4, #3c2a4d)",
+          "name": "Background",
+          "slug": "bacKground"
         },
         {
-          "color": "light-dark(#ffffff, #111111)",
-          "name": "Base / Two",
-          "slug": "base-2"
+          "color": "light-dark(#2a1f3d, #f0f8f4)",
+          "name": "Text",
+          "slug": "text"
         },
         {
-          "color": "light-dark(#111111, #ffffff)",
-          "name": "Contrast",
-          "slug": "contrast"
+          "color": "light-dark(#3c2a4d, #b5c5d4)",
+          "name": "Secondary Text",
+          "slug": "text-2"
         },
         {
-          "color": "light-dark(#636363, #888888)",
-          "name": "Contrast / Two",
-          "slug": "contrast-2"
+          "color": "light-dark(#574f7d, #979fba)",
+          "name": "Muted Text",
+          "slug": "text-muted"
         },
         {
-          "color": "light-dark(#A4A4A4, #3d3d3d)",
-          "name": "Contrast / Three",
-          "slug": "contrast-3"
-        },
-        {
-          "color": "light-dark(#cfcabe, #60544c)",
+          "color": "light-dark(#3c2a4d, #abd6d1)",
           "name": "Accent",
           "slug": "accent"
         },
         {
-          "color": "light-dark(#c2a990, #9d7359)",
-          "name": "Accent / Two",
-          "slug": "accent-2"
+          "color": "light-dark(#574f7d, #e0f0ea)",
+          "name": "Accent Light",
+          "slug": "accent-light"
         },
         {
-          "color": "#d8613c",
-          "name": "Accent / Three",
-          "slug": "accent-3"
+          "color": "light-dark(#2a1f3d, #8aada9)",
+          "name": "Accent Dark",
+          "slug": "accent-dark"
         },
         {
-          "color": "light-dark(#b1c5a4, #465a3b)",
-          "name": "Accent / Four",
-          "slug": "accent-4"
-        },
-        {
-          "color": "light-dark(#b5bdbc, #4d5757)",
-          "name": "Accent / Five",
-          "slug": "accent-5"
+          "color": "light-dark(#503a65, #a991d4)",
+          "name": "Purple",
+          "slug": "purple"
         }
       ]
     }
+  },
+  "typography": {
+    "dropCap": false,
+    "fluid": {
+      "minViewportWidth": "400px",
+      "maxViewportWidth": "1080px"
+    },
+    "defaultFontSizes": false,
+    "fontFamilies": [
+      {
+        "fontFamily": "Crimson Text, serif",
+        "name": "Crimson Text",
+        "slug": "heading",
+        "fontFace": [
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "src": [
+              "file:./assets/fonts/CrimsonText-Regular.ttf"
+            ]
+          },
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "italic",
+            "fontWeight": "400",
+            "src": [
+              "file:./assets/fonts/CrimsonText-Italic.ttf"
+            ]
+          },
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": "600",
+            "src": [
+              "file:./assets/fonts/CrimsonText-SemiBold.ttf"
+            ]
+          },
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "italic",
+            "fontWeight": "600",
+            "src": [
+              "file:./assets/fonts/CrimsonText-SemiBoldItalic.ttf"
+            ]
+          },
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "src": [
+              "file:./assets/fonts/CrimsonText-Bold.ttf"
+            ]
+          },
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Crimson Text",
+            "fontStretch": "normal",
+            "fontStyle": "italic",
+            "fontWeight": "700",
+            "src": [
+              "file:./assets/fonts/CrimsonText-BoldItalic.ttf"
+            ]
+          }
+        ]
+      },
+      {
+        "fontFamily": "Inter, sans-serif",
+        "name": "Inter",
+        "slug": "body",
+        "fontFace": [
+          {
+            "fontDisplay": "block",
+            "fontFamily": "Inter",
+            "fontStretch": "normal",
+            "fontStyle": "normal",
+            "fontWeight": "100 900",
+            "src": [
+              "file:./assets/fonts/Inter-VariableFont.ttf"
+            ]
+          }
+        ]
+      },
+      {
+        "fontFamily": "monospace",
+        "name": "Monospace",
+        "slug": "monospace"
+      }
+    ]
+  },
+  "custom": {
+    "border-width": "2px",
+    "line-height": {
+      "heading": "1.2",
+      "regular": "1.4"
+    },
+    "font-weight": {
+      "light": "300",
+      "regular": "400",
+      "medium": "500",
+      "bold": "700"
+    },
+    "link-color": "var(--wp--preset--color--accent-light)",
+    "link-color-hover": "var(--wp--preset--color--green-medium)"
   }
 }
